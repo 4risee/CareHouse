@@ -1,0 +1,60 @@
+/* CSS untuk Admin Dashboard dengan Sidebar */
+
+body {
+    overflow-x: hidden;
+}
+
+/* Styling untuk sidebar */
+#wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar-wrapper {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Styling untuk logo di sidebar */
+.logo-sidebar {
+    width: 100px;
+    height: auto;
+    margin: 20px auto; /* Memposisikan logo di tengah */
+}
+
+/* Styling untuk gambar profil di pojok kanan atas */
+.navbar .nav-item .dropdown-toggle img {
+    margin-right: 10px;
+}
+
+.profile-logo {
+    margin-right: 5px;
+}
+
+.navbar .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.sidebar-heading {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #6c757d;
+    color: white;
+}
+
+.list-group-item-action {
+    border: none;
+}
+
+.list-group-item-action:hover {
+    background-color: #dcdcdc;
+    color: #333;
+}
